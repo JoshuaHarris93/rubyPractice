@@ -13,4 +13,3 @@ running_time = benchmark { long_string.reverse }
 
 puts "string.reverse took #{running_time} seconds to run"
  
-kkjb

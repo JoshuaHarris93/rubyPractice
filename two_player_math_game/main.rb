@@ -1,3 +1,5 @@
-require './game'
-require './player'
-require './questions'
+require_relative './game'
+
+game1 = Game.new
+
+puts game1.run

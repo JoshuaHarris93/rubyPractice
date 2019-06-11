@@ -1,5 +1,5 @@
 class Player 
-    attr_reader :name, :ap
+    attr_reader :name
     attr_accessor :hp
 
     def to_s
@@ -8,10 +8,11 @@ class Player
 
     def initialize name
         @name = name
+        @hp = 3
     end
 
     def dead?
-        return false
+        @hp <= 0
     end
 end
 

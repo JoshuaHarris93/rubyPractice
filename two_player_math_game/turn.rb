@@ -7,7 +7,6 @@ class Turn
     @players = players
     @round = 0
     @current_player = nil
-    @enemy_player = nil
   end
 
 end

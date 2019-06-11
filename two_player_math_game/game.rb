@@ -41,6 +41,11 @@ class Game
             newNumber2 = generateNum
 
             puts "#{@current_player}: What does #{newNumber1} plus #{newNumber2} equal?"
+
+            # 10.downto(0) do |i|
+            #   puts "#{'%02d' % i}"
+            #   sleep 1
+            # end
             
             input = gets.chomp.to_i
 
